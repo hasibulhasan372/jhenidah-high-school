@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.my-container{
+    @apply max-w-[1390px] mx-auto ;
+}
+.main-btn{
+    @apply text-lg font-medium text-white bg-[rgb(255,126,132)] capitalize outline-none hover:bg-[rgb(210,77,84)] lg:py-[15px] lg:px-8 rounded-md; 
+
+}
+
+.menu-bar-color{
+    @apply text-[rgb(123,123,138)] ;
+}
+
+.primary-color{
+    @apply text-[rgb(48,190,173)]
+}
+.secondary-color{
+    @apply text-[rgb(255,126,132)];
+}
+.paragraph-text{
+    @apply text-lg font-medium text-[rgb(123,123,138)] leading-7 ;
+}
