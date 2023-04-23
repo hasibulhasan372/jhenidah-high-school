@@ -7,7 +7,7 @@
     @apply max-w-[1140px] mx-auto px-4 lg:px-0;
 }
 .main-btn{
-    @apply  text-lg font-medium text-white bg-[rgb(255,126,132)] capitalize outline-none hover:bg-[rgb(210,77,84)]     px-3 py-3 lg:py-[15px] lg:px-8 rounded-md; 
+    @apply  text-lg font-medium text-white bg-[rgb(255,126,132)] capitalize outline-none hover:bg-[rgb(210,77,84)]     px-3 py-3 lg:py-4 lg:px-8 rounded-md; 
 
 }
 
@@ -25,7 +25,7 @@
     @apply text-lg font-medium text-[rgb(123,123,138)] leading-7 ;
 }
 .title-name{
-    @apply text-lg font-semibold text-[rgb(48,190,173)]  ;
+    @apply text-lg font-semibold text-[rgb(48,190,173)] pb-2 lg:pb-2  ;
 }
 .title-text{
     @apply text-[30px] lg:text-[44px]  text-[rgb(12,19,39)] font-bold leading-9 lg:leading-[61px] ;
@@ -34,5 +34,5 @@
     @apply text-[rgb(255,126,132)];
 }
 .subtitle-text{
-    @apply text-[20px] font-bold text-[rgb (12,19,39)] ;
+    @apply text-[20px] font-bold text-[rgb(12,19,39)] ;
 }
